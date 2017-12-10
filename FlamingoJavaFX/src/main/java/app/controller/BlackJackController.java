@@ -296,7 +296,7 @@ public class BlackJackController implements Initializable {
 		boolean sweepFlag = randomBoolean.nextBoolean();
 		boolean largeArcFlag = randomBoolean.nextBoolean();
 		
-		// TODO: Fix the Path transition.  My Path looks terrible...  do something cool :)
+		// Fix the Path transition.  My Path looks terrible...  do something cool :)
 		
 		path.getElements().add(new MoveTo(fromPoint.getX(), fromPoint.getY()));
 		path.getElements().add(new ArcTo(40, 160, 90.0, toPoint.getX(), toPoint.getY(), 
