@@ -69,7 +69,7 @@ public class GamePlayBlackJack extends GamePlay implements Cloneable {
 
 		HandScoreBlackJack HSB = (HandScoreBlackJack) h.ScoreHand();
 
-		// TODO: Determine if the player can draw another card (are they busted?)
+		// Determine if the player can draw another card (are they busted?)
 
 		return bCanPlayerDraw;
 	}
@@ -79,7 +79,7 @@ public class GamePlayBlackJack extends GamePlay implements Cloneable {
 
 		HandScoreBlackJack HSB = (HandScoreBlackJack) hDealer.ScoreHand();
 
-		// TODO: Determine if the dealer MUST draw.
+		// Determine if the dealer MUST draw.
 		// Dealer must draw unless they are bust and they don't have a
 		// numeric score between 17-21.
 		// 5-5 = 10, they must draw
@@ -148,18 +148,18 @@ public class GamePlayBlackJack extends GamePlay implements Cloneable {
 
 			}
 
-			// TODO: Add the player to the game
+			// Add the player to the game
 		}
 
-		// TODO: Determine if player is a winner
+		// Determine if player is a winner
 
-		// TODO: Find the Dealer's hand
-		// TODO: Score Dealer's hand
+		// Find the Dealer's hand
+		//  Score Dealer's hand
 
-		// TODO: Find Player's hand
-		// TODO: Score Player's hand
+		//  Find Player's hand
+		//  Score Player's hand
 
-		// TODO: If Player's hand > Dealer's hand and <= 21, then eBlackJackResult = WIN
+		// If Player's hand > Dealer's hand and <= 21, then eBlackJackResult = WIN
 		// If Player's hand < Dealer's hand and Dealer didn't bust = LOSE
 		// If Player's hand == Dealer's hand and both didn't bust = TIE
 

@@ -31,15 +31,15 @@ public abstract class GamePlay {
 			Map.Entry pair = (Map.Entry) it.next();
 			Player p = (Player) pair.getValue();
 
-			//TODO: Add the player to the game
+			//Add the player to the game
 		}
 
 		switch (eGameType) {
 		case BLACKJACK:
-			//TODO: Set the game deck to the existing passed-in deck
+			// Set the game deck to the existing passed-in deck
 			break;
 		case POKER:
-			//TODO: Set the game deck to a brand new deck
+			// Set the game deck to a brand new deck
 			break;
 		}
 	}
